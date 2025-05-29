@@ -1,0 +1,46 @@
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/car.jpg');
+  background-size: cover;
+  background-position: center;
+}
+.contact-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/contact.jpg');
+  background-size: cover;
+  background-position: center;
+}
+.testimonial-card:hover,
+.service-card:hover,
+.team-member:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+.language-selector {
+  position: relative;
+  display: inline-block;
+}
+.language-dropdown {
+  display: none;
+  position: absolute;
+  right: 0;
+  background-color: white;
+  min-width: 100px;
+  box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+  z-index: 1;
+  border-radius: 4px;
+}
+.language-selector:hover .language-dropdown {
+  display: block;
+}
+.language-option {
+  padding: 8px 12px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.language-option:hover {
+  background-color: #f1f1f1;
+}
+.language-flag {
+  width: 20px;
+  margin-right: 8px;
+}
