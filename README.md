@@ -1,5 +1,5 @@
 # JOHNYCLEAN
-## A clean company based in Switzeland. 
+## A clean company based in Switzerland. 
 At JohnyClean it is our concern to provide first-class cleaning services with great care and using environmentally friendly products to ensure a healthy environment for our customers.
 
 # Motto
