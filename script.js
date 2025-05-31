@@ -42,6 +42,24 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
   });
 });
 
+// Scroll-hide navbar 🧙‍♂️
+let lastScrollTop = 0;
+const navbar = document.querySelector('nav');
+
+window.addEventListener('scroll', () => {
+  const currentScroll = window.pageYOffset || document.documentElement.scrollTop;
+
+  if (currentScroll > lastScrollTop) {
+    // Scrolling down
+    navbar.classList.add('navbar-hidden');
+  } else {
+    // Scrolling up
+    navbar.classList.remove('navbar-hidden');
+  }
+
+  lastScrollTop = currentScroll <= 0 ? 0 : currentScroll;
+});
+
 // Language translation
 const translations = {
   en: {

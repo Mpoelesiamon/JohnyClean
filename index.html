@@ -30,13 +30,14 @@
 </head>
 <body class="font-sans antialiased text-gray-800">
   <!-- Navigation -->
-    <nav class="bg-white shadow-lg sticky top-0 z-50">
+<nav class="navbar shadow-lg sticky top-0 z-[100] py-6">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex justify-between h-16">
                 <div class="flex items-center">
-                    <div class="flex-shrink-0 flex items-center">
-                        <i class="fas fa-broom text-primary text-2xl mr-2"></i>
-                        <span class="text-xl font-bold text-primary">JOHNYCLEAN</span>
+                    <div class="flex items-center space-x-3">
+  <a href="#home" class="flex items-center justify-center mb-4 group">
+                <img src="images/logo.png" alt="JohnyClean Logo" class="h-14 w-full max-h-16 object-contain transition-transform duration-300 ease-in-out transform group-hover:scale-105" style="max-width:100%;">
+  </a>
                     </div>
                 </div>
                 <div class="hidden md:ml-6 md:flex md:items-center md:space-x-8">
@@ -95,10 +96,10 @@
     </nav>
 
     <!-- Home Page -->
-    <section id="home" class="hero-image min-h-screen flex items-center justify-center text-white">
+<section id="home" class="hero-image pt-24 min-h-screen flex items-center justify-center text-white">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h1 class="text-4xl md:text-6xl font-bold mb-4" data-translate="home_title">JOHNYCLEAN</h1>
-            <p class="text-xl md:text-2xl mb-8" data-translate="home_subtitle">Welcome to JohnyCleans your first choice for professional cleaning services</p>
+            <p class="text-xl md:text-2xl mb-8" data-translate="home_subtitle">Welcome to JohnyClean your first choice for professional cleaning services</p>
             <a href="#contact" class="bg-primary hover:bg-blue-700 text-white font-bold py-3 px-8 rounded-full text-lg transition duration-300 inline-block" data-translate="home_button">Get a Quote</a>
         </div>
     </section>
@@ -160,7 +161,7 @@
                             <p class="text-gray-600 text-sm" data-translate="testimonial1_role">Homeowner</p>
                         </div>
                     </div>
-                    <p class="text-gray-700 italic" data-translate="testimonial1_text">"CleanPro transformed my home! After years of trying different cleaning services, I've finally found one that pays attention to detail. They're reliable, thorough, and use products that don't irritate my allergies."</p>
+                    <p class="text-gray-700 italic" data-translate="testimonial1_text">"JohnyClean transformed my home! After years of trying different cleaning services, I've finally found one that pays attention to detail. They're reliable, thorough, and use products that don't irritate my allergies."</p>
                     <div class="mt-4 text-yellow-400">
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
@@ -179,7 +180,7 @@
                             <p class="text-gray-600 text-sm" data-translate="testimonial2_role">Office Manager</p>
                         </div>
                     </div>
-                    <p class="text-gray-700 italic" data-translate="testimonial2_text">"Our office has never looked better. The team at CleanPro understands our specific needs and always delivers exceptional service. They've become an essential part of our business operations."</p>
+                    <p class="text-gray-700 italic" data-translate="testimonial2_text">"Our office has never looked better. The team at JohnyClean understands our specific needs and always delivers exceptional service. They've become an essential part of our business operations."</p>
                     <div class="mt-4 text-yellow-400">
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
@@ -244,14 +245,14 @@
     <section id="about" class="py-16 bg-white">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-12">
-                <h2 class="text-3xl font-bold text-dark mb-4" data-translate="about_title">About CleanPro</h2>
+                <h2 class="text-3xl font-bold text-dark mb-4" data-translate="about_title">About JohnyClean</h2>
                 <p class="text-gray-600 max-w-2xl mx-auto" data-translate="about_subtitle">Our story, mission, and the team behind your sparkling clean spaces.</p>
             </div>
             
             <div class="flex flex-col lg:flex-row items-center mb-16">
                 <div class="lg:w-1/2 mb-8 lg:mb-0 lg:pr-12">
-                    <h3 class="text-2xl font-semibold mb-4" data-translate="story_title">Our Story</h3>
-                    <p class="text-gray-600 mb-4" data-translate="story_text1">Founded in 2015, CleanPro began as a small team of dedicated cleaning professionals with a shared vision: to provide exceptional cleaning services that exceed expectations.</p>
+                    <h3 class="text-2xl font-bold mb-4" data-translate="story_title">Our Story</h3>
+                    <p class="text-gray-600 mb-4" data-translate="story_text1">Founded in 2020, JohnyClean began as a small team of dedicated cleaning professionals with a shared vision: to provide exceptional cleaning services that exceed expectations.</p>
                     <p class="text-gray-600" data-translate="story_text2">What started as a local service has grown into a trusted regional cleaning company, but we've never lost sight of our commitment to quality and personal attention.</p>
                 </div>
                 <div class="lg:w-1/2">
@@ -338,7 +339,7 @@
                                 <li class="mb-1"><i class="fas fa-check text-primary mr-2"></i> <span data-translate="service1_feature2">Kitchen and bathroom deep clean</span></li>
                                 <li class="mb-1"><i class="fas fa-check text-primary mr-2"></i> <span data-translate="service1_feature3">Bed making and linen changes</span></li>
                             </ul>
-                            <div class="font-semibold text-primary" data-translate="service1_price">Starting at $99 per visit</div>
+                            <!-- <div class="font-semibold text-primary" data-translate="service1_price">Starting at $99 per visit</div> -->
                         </div>
                     </div>
                 </div>
@@ -515,7 +516,7 @@
                             <i class="fas fa-chevron-down text-primary transition-transform duration-300"></i>
                         </button>
                         <div class="faq-content hidden p-4 bg-white">
-                            <p class="text-gray-600" data-translate="faq3_answer">Yes, all johnyclean are fully insured and bonded. We carry comprehensive liability insurance to protect your property.</p>
+                            <p class="text-gray-600" data-translate="faq3_answer">Yes, all JohnyClean are fully insured and bonded. We carry comprehensive liability insurance to protect your property.</p>
                         </div>
                     </div>
                     
@@ -550,7 +551,7 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-12">
                 <h2 class="text-3xl font-bold mb-4" data-translate="contact_title">Get In Touch</h2>
-                <p class="max-w-2xl mx-auto" data-translate="contact_subtitle">Ready to experience the johnycleans difference? Contact us today for a free quote or to schedule your first cleaning.</p>
+                <p class="max-w-2xl mx-auto" data-translate="contact_subtitle">Ready to experience the JohnyClean difference? Contact us today for a free quote or to schedule your first cleaning.</p>
             </div>
             
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
@@ -558,34 +559,39 @@
                 <div class="bg-white bg-opacity-90 rounded-lg p-8 shadow-lg">
                     <h3 class="text-2xl font-semibold text-dark mb-6" data-translate="form_title">Send Us a Message</h3>
                     <form id="contactForm" class="space-y-4">
-                        <div>
-                            <label for="name" class="block text-sm font-medium text-gray-700 mb-1" data-translate="form_name">Your Name</label>
-                            <input type="text" id="name" name="name" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-primary focus:border-primary" required>
-                        </div>
-                        <div>
-                            <label for="email" class="block text-sm font-medium text-gray-700 mb-1" data-translate="form_email">Email Address</label>
-                            <input type="email" id="email" name="email" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-primary focus:border-primary" required>
-                        </div>
-                        <div>
-                            <label for="phone" class="block text-sm font-medium text-gray-700 mb-1" data-translate="form_phone">Phone Number</label>
-                            <input type="tel" id="phone" name="phone" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-primary focus:border-primary">
-                        </div>
-                        <div>
-                            <label for="service" class="block text-sm font-medium text-gray-700 mb-1" data-translate="form_service">Service Interested In</label>
-                            <select id="service" name="service" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-primary focus:border-primary">
-                                <option value="" data-translate="form_service_select">Select a service</option>
-                                <option value="residential" data-translate="service1_title">Residential Cleaning</option>
-                                <option value="office" data-translate="service2_title">Office/Commercial Cleaning</option>
-                                <option value="deep" data-translate="service3_title">Deep Cleaning</option>
-                                <option value="move" data-translate="service4_title">Move-In/Move-Out Cleaning</option>
-                                <option value="construction" data-translate="service5_title">Post-Construction Cleaning</option>
-                            </select>
-                        </div>
-                        <div>
-                            <label for="message" class="block text-sm font-medium text-gray-700 mb-1" data-translate="form_message">Message</label>
-                            <textarea id="message" name="message" rows="4" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-primary focus:border-primary"></textarea>
-                        </div>
-                        <div>
+                       <input type="text" id="name" name="name"
+                            placeholder="Enter your name"
+                            class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-primary focus:border-primary text-black" required>
+
+                            <input type="email" id="email" name="email"
+                            placeholder="Enter your email"
+                            class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-primary focus:border-primary text-black" required>
+
+                            <input type="tel" id="phone" name="phone"
+                            placeholder="Enter your phone number"
+                            class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-primary focus:border-primary text-black" required>
+
+                            <div>
+                                <label for="service" class="block text-sm font-medium text-gray-700 mb-1" data-translate="form_service">
+                                    Service Interested In
+                                </label>
+
+                                <select id="service" name="service"
+                                    class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-primary focus:border-primary text-black"
+                                    required>
+                                    <option value="" disabled selected>Select a service</option>
+                                    <option value="all" data-translate="service5_title">All</option>
+                                    <option value="residential" data-translate="service1_title">Residential Cleaning</option>
+                                    <option value="office" data-translate="service2_title">Office/Commercial Cleaning</option>
+                                    <option value="deep" data-translate="service3_title">Deep Cleaning</option>
+                                    <option value="move" data-translate="service4_title">Move-In/Move-Out Cleaning</option>
+                                    <option value="construction" data-translate="service5_title">Post-Construction Cleaning</option>
+                                </select>
+                            </div>
+                                    <textarea id="message" name="message" rows="4"
+                                        placeholder="Enter your message"
+                                        class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-primary focus:border-primary text-black"></textarea>
+                            <div>
                             <button type="submit" class="w-full bg-primary text-white py-3 px-6 rounded-md hover:bg-blue-700 transition duration-300 font-medium" data-translate="form_button">
                                 Send Message
                             </button>
@@ -632,86 +638,110 @@
                             </div>
                         </div>
                     </div>
-                    
-                    <div class="bg-white bg-opacity-90 rounded-lg p-6 shadow-lg">
-                        <h3 class="text-xl font-semibold text-dark mb-4" data-translate="social_title">Follow Us</h3>
-                        <div class="flex space-x-4">
-                            <a href="#" class="bg-blue-600 text-white w-10 h-10 rounded-full flex items-center justify-center hover:bg-blue-700 transition duration-300">
-                                <i class="fab fa-facebook-f"></i>
-                            </a>
-                            <a href="#" class="bg-pink-600 text-white w-10 h-10 rounded-full flex items-center justify-center hover:bg-pink-700 transition duration-300">
-                                <i class="fab fa-instagram"></i>
-                            </a>
-                            <a href="#" class="bg-green-500 text-white w-10 h-10 rounded-full flex items-center justify-center hover:bg-green-600 transition duration-300">
-                                <i class="fab fa-whatsapp"></i>
-                            </a>
-                            <a href="#" class="bg-blue-400 text-white w-10 h-10 rounded-full flex items-center justify-center hover:bg-blue-500 transition duration-300">
-                                <i class="fab fa-twitter"></i>
-                            </a>
-                        </div>
+
+                    <h2 class="text-2xl font-bold mb-6" data-translate="follow_us_title">Follow Us</h2>
+                    <div class="flex justify-center space-x-4 mt-4">
+                    <!-- Facebook -->
+                    <a href="https://facebook.com" target="_blank" rel="noopener noreferrer"
+                        title="Visit us on Facebook"
+                        class="bg-blue-600 text-white w-10 h-10 rounded-full flex items-center justify-center hover:bg-blue-700 transition duration-300">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+
+                    <!-- Instagram -->
+                    <a href="https://instagram.com" target="_blank" rel="noopener noreferrer"
+                        title="Follow us on Instagram"
+                        class="bg-pink-600 text-white w-10 h-10 rounded-full flex items-center justify-center hover:bg-pink-700 transition duration-300">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+
+                    <!-- WhatsApp -->
+                    <a href="https://wa.me/+41788669233?text=Hi%20there%2C%20I%27m%20interested%20in%20your%20cleaning%20services." target="_blank" rel="noopener noreferrer"
+                        title="Chat with us on WhatsApp"
+                        class="bg-green-500 text-white w-10 h-10 rounded-full flex items-center justify-center hover:bg-green-600 transition duration-300">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+
+                    <!-- Twitter -->
+                    <a href="https://twitter.com" target="_blank" rel="noopener noreferrer"
+                        title="Follow us on Twitter"
+                        class="bg-blue-400 text-white w-10 h-10 rounded-full flex items-center justify-center hover:bg-blue-500 transition duration-300">
+                        <i class="fab fa-twitter"></i>
+                    </a>
                     </div>
                 </div>
             </div>
             
-            <!-- Map -->
-            <div class="mt-12 bg-white bg-opacity-90 rounded-lg overflow-hidden shadow-lg">
-                <div class="h-96 w-full bg-gray-200 flex items-center justify-center">
-                    <p class="text-gray-600" data-translate="map_placeholder">[Placeholder for Map]</p>
+           <!-- Map -->
+                <div class="mt-12 mb-16 bg-white bg-opacity-90 rounded-lg overflow-hidden shadow-lg">
+                <div class="h-96 w-full">
+                    <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22290961.58404911!2d-31.56322700000001!3d46.99970359999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478e3a68be6ecccb%3A0xaca6d6ad03398a86!2sJohnyClean%2C%20John%20Karanga&#39;e%20Unternehmungen!5e0!3m2!1sen!2ske!4v1748644101147!5m2!1sen!2ske" 
+                    width="100%" 
+                    height="100%" 
+                    style="border:0;" 
+                    allowfullscreen="" 
+                    loading="lazy" 
+                    referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
                 </div>
-            </div>
-        </div>
-    </section>
+                </div>
 
-    <!-- Footer -->
-    <footer class="bg-dark text-white py-12">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
-                <div>
-                    <h3 class="text-xl font-semibold mb-4">johnycleans</h3>
-                    <p class="text-gray-400" data-translate="footer_description">Professional cleaning services for homes and businesses in Bern city.</p>
-                </div>
-                
-                <div>
-                    <h4 class="text-lg font-medium mb-4" data-translate="footer_links_title">Quick Links</h4>
-                    <ul class="space-y-2">
-                        <li><a href="#home" class="text-gray-400 hover:text-white transition duration-300" data-translate="nav_home">Home</a></li>
-                        <li><a href="#about" class="text-gray-400 hover:text-white transition duration-300" data-translate="nav_about">About Us</a></li>
-                        <li><a href="#services" class="text-gray-400 hover:text-white transition duration-300" data-translate="nav_services">Services</a></li>
-                        <li><a href="#process" class="text-gray-400 hover:text-white transition duration-300" data-translate="nav_process">How We Work</a></li>
-                        <li><a href="#contact" class="text-gray-400 hover:text-white transition duration-300" data-translate="nav_contact">Contact</a></li>
-                    </ul>
-                </div>
-                
-                <div>
-                    <h4 class="text-lg font-medium mb-4" data-translate="footer_services_title">Services</h4>
-                    <ul class="space-y-2">
-                        <li><a href="#services" class="text-gray-400 hover:text-white transition duration-300" data-translate="service1_title">Residential Cleaning</a></li>
-                        <li><a href="#services" class="text-gray-400 hover:text-white transition duration-300" data-translate="service2_title">Office Cleaning</a></li>
-                        <li><a href="#services" class="text-gray-400 hover:text-white transition duration-300" data-translate="service3_title">Deep Cleaning</a></li>
-                        <li><a href="#services" class="text-gray-400 hover:text-white transition duration-300" data-translate="service4_title">Move-In/Move-Out</a></li>
-                        <li><a href="#services" class="text-gray-400 hover:text-white transition duration-300" data-translate="service5_title">Post-Construction</a></li>
-                    </ul>
-                </div>
-                
-                <div>
-                    <h4 class="text-lg font-medium mb-4" data-translate="footer_contact_title">Contact</h4>
-                    <address class="text-gray-400 not-italic">
-                        <span data-translate="contact_address">Steinmatt 10,3298 Oberwil b.Bern<br> Bern City </span><br>
-                        <span data-translate="contact_phone">Phone: +41788669233</span><br>
-                        <span data-translate="contact_email">Email:karangaejohn@gmail.com</span>
-                    </address>
-                </div>
-            </div>
+                    <!-- Footer -->
+        <footer class="footer-bg text-white py-12 w-full shadow-lg">
+        <div class="px-6 sm:px-10 lg:px-20 max-w-screen-2xl mx-auto">
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-10 mb-12">
             
-            <div class="pt-8 border-t border-gray-800 flex flex-col md:flex-row justify-between items-center">
-                <p class="text-gray-400 mb-4 md:mb-0" data-translate="footer_copyright">© 2025 JOHNYCLEANS. All rights reserved.</p>
-                <div class="flex space-x-6">
-                    <a href="#" class="text-gray-400 hover:text-white transition duration-300" data-translate="footer_privacy">Privacy Policy</a>
-                    <a href="#" class="text-gray-400 hover:text-white transition duration-300" data-translate="footer_terms">Terms of Service</a>
-                </div>
+            <!-- Company Info -->
+            <div>
+                <img src="images/logo.png" alt="JohnyClean Logo" class="h-15 mb-4 mx-auto">
+                <p class="text-gray-400">Professional cleaning services for homes and businesses in Bern city.</p>
+            </div>
+
+            <!-- Quick Links -->
+            <div>
+                <h4 class="text-lg font-semibold mb-4">Quick Links</h4>
+                <ul class="space-y-2">
+                <li><a href="#home" class="text-gray-400 hover:text-white transition duration-300">Home</a></li>
+                <li><a href="#about" class="text-gray-400 hover:text-white transition duration-300">About Us</a></li>
+                <li><a href="#services" class="text-gray-400 hover:text-white transition duration-300">Services</a></li>
+                <li><a href="#process" class="text-gray-400 hover:text-white transition duration-300">How We Work</a></li>
+                <li><a href="#contact" class="text-gray-400 hover:text-white transition duration-300">Contact</a></li>
+                </ul>
+            </div>
+
+            <!-- Services -->
+            <div>
+                <h4 class="text-lg font-semibold mb-4">Services</h4>
+                <ul class="space-y-2">
+                <li><a href="#services" class="text-gray-400 hover:text-white transition duration-300">Residential Cleaning</a></li>
+                <li><a href="#services" class="text-gray-400 hover:text-white transition duration-300">Office Cleaning</a></li>
+                <li><a href="#services" class="text-gray-400 hover:text-white transition duration-300">Deep Cleaning</a></li>
+                <li><a href="#services" class="text-gray-400 hover:text-white transition duration-300">Move-In/Move-Out</a></li>
+                <li><a href="#services" class="text-gray-400 hover:text-white transition duration-300">Post-Construction</a></li>
+                </ul>
+            </div>
+
+            <!-- Contact -->
+            <div>
+                <h4 class="text-lg font-semibold mb-4">Contact</h4>
+                <address class="text-gray-400 not-italic space-y-2">
+                <p>Steinmatt 10, 3298 Oberwil b. Bern<br>Bern City</p>
+                <p>Phone: +41 78 866 92 33</p>
+                <p>Email: karangaejohn@gmail.com</p>
+                </address>
+            </div>
+            </div>
+
+            <div class="pt-6 border-t border-gray-800 flex flex-col md:flex-row justify-between items-center">
+            <p class="text-gray-400 mb-4 md:mb-0">© 2025 JOHNYCLEANS. All rights reserved.</p>
+            <div class="flex space-x-6">
+                <a href="#" class="text-gray-400 hover:text-white transition duration-300">Privacy Policy</a>
+                <a href="#" class="text-gray-400 hover:text-white transition duration-300">Terms of Service</a>
+            </div>
             </div>
         </div>
-    </footer>
+        </footer>
 
 
   <!-- External script -->
